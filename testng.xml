@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Test">
+  <test name="Smoke Testing">
+<groups>
+
+            <run>
+       
+                    <include name = "BVT">
+        
+                     </include>
+    
+           </run>
+
+ </groups>
+
+    <classes>
+      <class name="test.TestNGGroups.TestClassGroups.XmL"/>
+      <class name="test.TestNGGroups.TestClassGroups.XmL2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
